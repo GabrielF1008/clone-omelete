@@ -1,0 +1,63 @@
+.last-news {
+    &__container {
+        background-color: red;
+        height: 365px;
+        width: 1190px;
+        bottom: 0;
+        margin-top: 380px;
+        margin: 380px auto 80px;
+        border-radius: 4px;
+        background-color: #222;
+
+
+        h3 {
+            padding: 18px 0 0 18px;
+            text-transform: uppercase;
+            color: #ffbf00;
+            font-weight: lighter;
+            font-style: italic;
+        }
+
+        &__cards {
+            display: flex;
+            justify-items: center;
+
+            &__card {
+                margin-top: 16px;
+                margin-left: 18px;
+
+                img {
+                    height: 214px;
+                    width: 128px;
+                }
+    
+                p {
+                    font-size: 13px;
+                    color: #989898;
+                    width: 128px;
+                }
+
+                &:last-child {
+                    border: 1px solid #444;
+                    height: 214px;
+                    width: 128px;
+                    padding-top: 48px;
+
+                    i {
+                        font-size: 48px;
+                        color: #989898;
+                        margin-left: 38px;
+                    }
+
+                    p {
+                        width: 70%;
+                        text-align: center;
+                        margin: 0 auto;
+                        text-transform: uppercase;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+}

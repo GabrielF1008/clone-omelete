@@ -1,0 +1,196 @@
+.movies-news {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 380px;
+
+    .content {
+        height: 100vh;
+        width: 100%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    &__main-content {
+        display: grid;
+        grid-template-columns: 32% 36% 32%;
+        height: 100%;
+        margin-bottom: 300px;
+
+        &__first-content, &__third-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 1px solid #ccc;
+            padding-left: 120px;
+            padding-top: 40px;
+
+            .info-image {
+                img {
+                    width: 275px;
+                    height: 206px;
+                    border-radius: 2px;
+                    position: relative;
+                    z-index: 0;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-top: -20px;
+                    z-index: 1;
+                    color: red;
+                    position: absolute;
+                    background-color: #ffbf00;
+                    padding: 2px 8px;
+                    border-radius: 3px;
+                    color: #000;
+                    font-style: italic;
+                    text-transform: uppercase; 
+                }
+            }
+
+            .infos {
+                margin-top: 20px;
+                width: 275px;
+                padding-bottom: 60px;
+
+                .h2-info {
+                    // background-color: red;
+                    font-size: 24px;
+                }
+
+                .p-info {
+                    // margin-bottom: -20px;
+                    // background-color: red;
+                    position: relative;
+                    width: 60%;
+                }
+
+                h2 {
+                    font-weight: bold;
+                    font-size: 30px;
+                    line-height: 30px;
+                }
+
+                h2:hover, li:hover {
+                    color: #ffbf00;
+                    cursor: pointer;
+                }
+
+                li {
+                    padding-top: 16px;
+                    list-style: circle;
+                    list-style-position: inside;
+                    line-height: 14px;
+                }
+            }
+        }
+
+        &__first-content:nth-child(2) {
+            background-color: red;
+        }   
+
+        &__second-content {
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            width: 480px;
+            margin: 0 auto;
+
+            .info-image {
+                img {
+                    width: 480px;
+                    height: 360px;
+                    margin: 0 auto;
+                    border-radius: 4px;
+                }
+    
+                p {
+                    margin-bottom: -20px;
+                    z-index: 1;
+                    color: red;
+                    position: absolute;
+                    background-color: #ffbf00;
+                    padding: 2px 8px;
+                    border-radius: 3px;
+                    color: #000;
+                    font-style: italic;
+                    bottom: 0;
+                    text-transform: uppercase; 
+                }
+            }
+            
+            .info-image {
+                padding-bottom: 20px;
+            }
+
+            .infos {
+                h2 {
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 30px;
+                    padding-bottom: 4px;
+                }
+
+                h2:hover, li:hover {
+                    color: #ffbf00;
+                    cursor: pointer;
+                }
+
+                li {
+                    padding-top: 16px;
+                    list-style: circle;
+                    list-style-position: inside;
+                    line-height: 14px;
+                }
+
+                h3 {
+                    font-size: 24px;
+                    color: #ccc;
+                    font-weight: lighter;
+                    padding-top: 10px;
+                }
+            }
+
+            .youtube {
+                padding-top: 80px;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+
+                    &:hover {
+                        color: #ffbf00;
+                    }
+                }
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                h3 {
+                    color: #888;
+                    font-weight: lighter;
+                    font-size: 20px;
+                    padding-top: 16px;
+                }
+            }
+        }
+
+        &__third-content {
+            padding-right: 240px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            border-left: 1px solid #ccc;
+
+            img {
+                width: 275px;
+                height: 206px;
+                margin: 0 auto;
+            }
+        }
+    }
+}   

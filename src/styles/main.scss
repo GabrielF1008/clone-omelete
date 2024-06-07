@@ -1,0 +1,38 @@
+@use 'header';
+@use 'movies-section';
+@use 'movies-news';
+@use 'last-news';
+
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-Bold.woff2);
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir, 'sans-serif';
+    list-style: none;
+}
+
+i:hover {
+    color: #ffbf00;
+    cursor: pointer;
+}
+
+
+.max {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
