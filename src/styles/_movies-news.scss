@@ -6,6 +6,7 @@
     .content {
         height: 100vh;
         width: 100%;
+        margin-bottom: 380px;
     }
 
     p {
@@ -56,13 +57,10 @@
                 padding-bottom: 60px;
 
                 .h2-info {
-                    // background-color: red;
                     font-size: 24px;
                 }
 
                 .p-info {
-                    // margin-bottom: -20px;
-                    // background-color: red;
                     position: relative;
                     width: 60%;
                 }
@@ -108,7 +106,8 @@
                 }
     
                 p {
-                    margin-bottom: -20px;
+                    font-size: 18px;
+                    margin-top: -20px;
                     z-index: 1;
                     color: red;
                     position: absolute;
@@ -117,7 +116,6 @@
                     border-radius: 3px;
                     color: #000;
                     font-style: italic;
-                    bottom: 0;
                     text-transform: uppercase; 
                 }
             }

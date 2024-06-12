@@ -1,11 +1,11 @@
 .last-news {
+    padding-top:115px;
+
     &__container {
-        background-color: red;
         height: 365px;
         width: 1190px;
         bottom: 0;
-        margin-top: 380px;
-        margin: 380px auto 80px;
+        margin: 0 auto;
         border-radius: 4px;
         background-color: #222;
 
@@ -29,6 +29,10 @@
                 img {
                     height: 214px;
                     width: 128px;
+
+                    &:hover {
+                        border: 1px solid #ffbf00;
+                    }
                 }
     
                 p {
@@ -36,12 +40,18 @@
                     color: #989898;
                     width: 128px;
                 }
+                
+
 
                 &:last-child {
                     border: 1px solid #444;
                     height: 214px;
                     width: 128px;
                     padding-top: 48px;
+
+                    &:hover {
+                        border: 1px solid #ffbf00;
+                    }
 
                     i {
                         font-size: 48px;
